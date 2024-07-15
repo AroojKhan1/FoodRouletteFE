@@ -1,6 +1,6 @@
 
 import './App.css';
-import CuisineRoulette from './components/CuisinesRoulette';
+import CuisineRoulette from './components/CuisinesRoulette/CuisinesRoulette';
 function App() {
   return (
     <div className="App">
