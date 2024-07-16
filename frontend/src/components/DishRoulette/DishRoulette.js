@@ -53,7 +53,7 @@ function DishRoulette() {
                     <Wheel mustStartSpinning={mustSpin}
                            prizeNumber={prizeNumber}
                            data={dishes}
-                           backgroundColors={['#3e3e3e', '#df3428']}
+                           backgroundColors={['#ff4c4c', '#ffd700']}
                            textColors={['#ffffff']}
                            onStopSpinning={() => {
                                setMustSpin(false);

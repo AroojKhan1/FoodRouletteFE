@@ -53,7 +53,7 @@ function CuisinesRoulette() {
                         mustStartSpinning={mustSpin}
                         prizeNumber={prizeNumber}
                         data={cuisines}
-                        backgroundColors={['#3e3e3e', '#df3428' ]}
+                        backgroundColors={['#ffd700', '#4CAF50' ]}
                         textColors={['#ffffff']}
                         onStopSpinning={() => {
                             setMustSpin(false);
@@ -68,8 +68,9 @@ function CuisinesRoulette() {
             {!isSpinning && selectedCuisine && (
                 <div className="selected-cuisine">
                     you are making: {selectedCuisine}
+                    <br/>
                     <button onClick={handleNavigate}>
-                        select dish from {selectedCuisine}
+                        Select a Dish from {selectedCuisine} Cuisine
                     </button>
 
 
