@@ -33,20 +33,6 @@ function DishRoulette() {
         };
         fetchDishes();
     },[cuisine]);
-    //     axios.get('http://127.0.0.1:8000/api/dishes/')
-    //         .then(response => {
-    //             console.log('fetched dishes:', response.data);
-    //             if (Array.isArray(response.data)) {
-    //                 const formattedData = response.data.map(dish => ({option: dish.name}));
-    //                 setDishes(formattedData);
-    //                 console.log('formattedData: ', formattedData);
-    //             } else {
-    //                 console.error('unexpected response data', response.data);
-    //             }
-    //         })
-    //         .catch(error => console.error('error fetching dishes: ', error));
-    //
-    // }, []);
 
     const handleSpinClick = () => {
         if (dishes.length > 0) {

@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6995aba-c46c-49e2-a2fa-1edb7b8ab280" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/DishRoulette/DishRoulette.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/DishRoulette/DishRoulette.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Home/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/CuisinesRoulette/CuisineRoulette.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CuisinesRoulette/CuisineRoulette.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/CuisinesRoulette/CuisinesRoulette.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CuisinesRoulette/CuisinesRoulette.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/DishRoulette/DishRoulette.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/DishRoulette/DishRoulette.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720828313429</updated>
       <workItem from="1720828316257" duration="11009000" />
-      <workItem from="1720990894033" duration="22386000" />
+      <workItem from="1720990894033" duration="25552000" />
     </task>
     <servers />
   </component>
