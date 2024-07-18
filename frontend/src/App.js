@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import CuisineRoulette from './components/CuisinesRoulette/CuisinesRoulette';
 import DishRoulette from './components/DishRoulette/DishRoulette';
 import Home from './components/Home/Home'
+import CustomRoulette from './components/Custom Roulette/CustomRoulette';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                     <Route path="/cuisines" element={<CuisineRoulette/>}/>
                     <Route path="/dishes" element={<DishRoulette/>}/>
                     <Route path="/dishes/:cuisine" element={<DishRoulette/>}/>
+                    <Route path="/customRoulette" element={<CustomRoulette/>}/>
                 </Routes>
 
             </div>

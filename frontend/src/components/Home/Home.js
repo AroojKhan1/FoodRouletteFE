@@ -11,6 +11,9 @@ function Home() {
     const handleDishNavigate = () => {
         navigate(`/dishes`);
     };
+    const handleCustomNavigate = () => {
+        navigate(`/customRoulette`);
+    };
 
     return (
         <div className="home-container">
@@ -62,7 +65,7 @@ function Home() {
 
 
             <div className="button-container">
-                <button onClick={handleCuisineNavigate} className="big-button">Custom Roulette</button>
+                <button onClick={handleCustomNavigate} className="big-button">Custom Roulette</button>
 
             </div>
 
